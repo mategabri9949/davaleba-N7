@@ -1,0 +1,27 @@
+
+button{
+    background-color: green;
+    width: 100px;
+    height: 50px;
+    margin-left: 50%;
+    transition: 2s ;
+}
+button:hover{
+    background-color: blue;
+}
+div img{
+    width: 300px;
+    height: 200px;
+    animation: mymove 5s infinite;
+    position: relative;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://imgs.search.brave.com/7Hkr_4nZ86lM86XcdoEsYGeuDrz2wPcRlibDm6ulTVE/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNTMz/MDQ1MDk4L3ZlY3Rv/ci90cmVlLXNrZXRj/aGVzLXNldC5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9cUVS/RW92X0J6YVZrOFVV/Yll6X21JWi14dUt0/NG1BN29XNWFQSk94/eFdHRT0);
+    background-repeat: repeat;
+}
+@keyframes mymove{
+    from{left: 0px;}
+    to{left: 1000px;}
+}
